@@ -7,25 +7,65 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    display: block;
+    text-align: center;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
+#ejercicioDos{
+    display: none;
+    
+}
 
 
+#header{
+   position: relative;
+   margin:auto;
+   width: 100%;
+}
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
+#ejercicioTres{
+position: relative;
+left: 200px;
+height: 300px;
+width: 400px;
+margin: 0;
+top: 100px;
 
+
+}
+
+
+#instructions{
+    color: rgb(5, 5, 92);
+    margin: 10px
+
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
+#ejercicioCuatro{
+position: fixed;
+top: 0;
+left: 0;
+
+}
+
+body{
+    background-color: rgb(213, 208, 243);
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(5, 5, 92);
+    
+    
+}
 
 
 
@@ -33,6 +73,35 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 
-
+#ejercicioCinco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
 
 /* Ejercicio 6. */
+
+#ejercicioSiete{
+    color:rgb(22, 16, 43);
+    flex-direction: row-reverse;
+    
+}
+#elementoUno{
+align-self: flex-end;
+}
+#elementoDos{
+margin-left: 20px;
+flex-direction: column;
+}
+#elementoTres{
+margin-left: 30px;
+align-self: center;
+
+
+}
+#elementoCuatro{
+align-self: flex-end;
+flex-direction:column-reverse;
+
+}
